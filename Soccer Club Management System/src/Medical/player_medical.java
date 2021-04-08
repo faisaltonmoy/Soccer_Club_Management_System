@@ -103,9 +103,6 @@ public class player_medical extends javax.swing.JFrame {
         jLabel1.setForeground(java.awt.Color.white);
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Home/image/eleven.jpg"))); // NOI18N
-        jLabel1.setMaximumSize(new java.awt.Dimension(320, 380));
-        jLabel1.setMinimumSize(new java.awt.Dimension(320, 380));
-        jLabel1.setPreferredSize(new java.awt.Dimension(320, 380));
         getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 380));
 
         pack();

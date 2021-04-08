@@ -57,7 +57,7 @@ public class staff_salary extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMaximumSize(new java.awt.Dimension(320, 380));
         setMinimumSize(new java.awt.Dimension(320, 380));
-        setPreferredSize(new java.awt.Dimension(320, 380));
+        setPreferredSize(new java.awt.Dimension(320, 420));
         setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -136,9 +136,7 @@ public class staff_salary extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 10, -1, -1));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Home/image/eleven.jpg"))); // NOI18N
-        jLabel8.setMaximumSize(new java.awt.Dimension(320, 380));
-        jLabel8.setMinimumSize(new java.awt.Dimension(320, 380));
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 370));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 380));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

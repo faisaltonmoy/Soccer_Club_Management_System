@@ -51,6 +51,10 @@ public class coach_medical extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setMaximumSize(new java.awt.Dimension(320, 380));
+        setMinimumSize(new java.awt.Dimension(320, 380));
+        setPreferredSize(new java.awt.Dimension(320, 420));
+        setResizable(false);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         getContentPane().add(m_description_tf, new org.netbeans.lib.awtextra.AbsoluteConstraints(110, 249, 180, 25));
 
@@ -95,8 +99,12 @@ public class coach_medical extends javax.swing.JFrame {
         getContentPane().add(clear_btn, new org.netbeans.lib.awtextra.AbsoluteConstraints(212, 292, -1, -1));
 
         jLabel1.setForeground(java.awt.Color.white);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Medical/eleven.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 350));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Home/image/eleven.jpg"))); // NOI18N
+        jLabel1.setMaximumSize(new java.awt.Dimension(320, 420));
+        jLabel1.setMinimumSize(new java.awt.Dimension(320, 420));
+        jLabel1.setPreferredSize(new java.awt.Dimension(320, 420));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 380));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

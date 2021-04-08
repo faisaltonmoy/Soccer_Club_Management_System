@@ -65,9 +65,9 @@ public class coach_salary extends javax.swing.JFrame {
         });
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setMaximumSize(new java.awt.Dimension(330, 350));
-        setMinimumSize(new java.awt.Dimension(330, 350));
-        setPreferredSize(new java.awt.Dimension(330, 350));
+        setMaximumSize(new java.awt.Dimension(320, 380));
+        setMinimumSize(new java.awt.Dimension(320, 380));
+        setPreferredSize(new java.awt.Dimension(320, 420));
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
         jLabel5.setForeground(java.awt.Color.white);
@@ -149,8 +149,11 @@ public class coach_salary extends javax.swing.JFrame {
         getContentPane().add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 10, -1, -1));
 
         jLabel1.setForeground(java.awt.Color.white);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Medical/eleven.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 330, 380));
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Home/image/eleven.jpg"))); // NOI18N
+        jLabel1.setMaximumSize(new java.awt.Dimension(320, 380));
+        jLabel1.setMinimumSize(new java.awt.Dimension(320, 380));
+        jLabel1.setPreferredSize(new java.awt.Dimension(320, 380));
+        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 320, 380));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
