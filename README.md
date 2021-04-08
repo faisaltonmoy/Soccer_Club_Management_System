@@ -1,5 +1,5 @@
 # Project Description:
-Our project name is Soccer_Club_Management_System.
+Our project name is Soccer Club Management System.
 
 This Application stores all information & records of a football club. 
 
