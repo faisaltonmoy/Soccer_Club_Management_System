@@ -10,11 +10,15 @@ App Softwares:
 
 
 SQL Server 2014 Management Studio
+
+
 Netbeans IDE: 8.2
 
 
 Language:
+
 Java
+
 UI:
 Java Swing
 
